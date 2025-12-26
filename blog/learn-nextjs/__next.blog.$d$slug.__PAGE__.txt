@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[24459,["/2415016099_Erika-A-F_TEKWEB-A_Praktikum-9/_next/static/chunks/46114b928db4d294.js"],""]
+3:I[38933,["/2415016099_Erika-A-F_TEKWEB-A_Praktikum-9/_next/static/chunks/09ce04219bd3fb9b.js","/2415016099_Erika-A-F_TEKWEB-A_Praktikum-9/_next/static/chunks/86ca0c31c5444cb6.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"32AVuXNd7KezyUX4WVPXM","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-2xl mx-auto mt-8","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"Learning Next.js Basics"}],["$","div",null,{"className":"text-gray-500 mb-8","children":["By ","Admin"," on ","2024-03-01"]}],["$","div",null,{"className":"prose lg:prose-xl","children":["$","p",null,{"children":"Next.js is a React framework..."}]}],["$","br",null,{}],["$","$L2",null,{"href":"/blog","className":"text-blue-600 hover:underline","children":"← Back to Blog List"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

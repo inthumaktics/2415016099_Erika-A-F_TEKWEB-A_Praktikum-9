@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[52815,["/2415016099_Erika-A-F_TEKWEB-A_Praktikum-9/_next/static/chunks/09ce04219bd3fb9b.js","/2415016099_Erika-A-F_TEKWEB-A_Praktikum-9/_next/static/chunks/86ca0c31c5444cb6.js"],"default"]
+3:I[38874,["/2415016099_Erika-A-F_TEKWEB-A_Praktikum-9/_next/static/chunks/09ce04219bd3fb9b.js","/2415016099_Erika-A-F_TEKWEB-A_Praktikum-9/_next/static/chunks/86ca0c31c5444cb6.js"],"default"]
+0:{"buildId":"32AVuXNd7KezyUX4WVPXM","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
