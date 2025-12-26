@@ -1,11 +1,13 @@
-// src/app/layout.js
 "use client";
 import "./globals.css";
-import Link from "next/link"; // Import Link dari Next.js
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
+
+  const isActive = (path) =>
+    pathname === path || pathname.startsWith(path + "/");
 
   return (
     <html lang="en">
@@ -14,27 +16,29 @@ export default function RootLayout({ children }) {
           <Link
             href="/"
             className={`font-bold ${
-              pathname === "/"
+              isActive("/")
                 ? "text-blue-600"
                 : "text-gray-600 hover:text-blue-500"
             }`}
           >
             Home
           </Link>
+
           <Link
             href="/blog"
             className={`font-bold ${
-              pathname === "/blog"
+              isActive("/blog")
                 ? "text-blue-600"
                 : "text-gray-600 hover:text-blue-500"
             }`}
           >
             Blog
           </Link>
+
           <Link
             href="/about"
             className={`font-bold ${
-              pathname === "/about"
+              isActive("/about")
                 ? "text-blue-600"
                 : "text-gray-600 hover:text-blue-500"
             }`}
@@ -43,8 +47,9 @@ export default function RootLayout({ children }) {
           </Link>
         </nav>
 
-        {/* 'children' adalah halaman (page.jsx) yang sedang aktif */}
-        <main className="container mx-auto p-4">{children}</main>
+        <main className="container mx-auto p-4">
+          {children}
+        </main>
       </body>
     </html>
   );

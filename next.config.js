@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
+const repoName = '2415016099_Erika-A-F_TEKWEB-A_Praktikum-9';
+
 const nextConfig = {
   output: 'export',
-  basePath: '/2415016099_Erika-Ayu-F_TEKWEB-A_Praktikum-9',
-  assetPrefix: '/2415016099_Erika-Ayu-F_TEKWEB-A_Praktikum-9/',
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}`,
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;

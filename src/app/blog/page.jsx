@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { posts } from "../../data/posts"; // Import data
+import { posts } from "../../data/posts";
 
 export default function BlogList() {
   return (
@@ -13,7 +13,6 @@ export default function BlogList() {
             className="border p-4 rounded bg-white shadow hover:shadow-lg transition"
           >
             <h2 className="text-xl font-bold">{post.title}</h2>
-
             <p className="text-gray-600 truncate">{post.content}</p>
 
             <Link
