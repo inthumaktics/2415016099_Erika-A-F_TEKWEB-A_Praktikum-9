@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[38933,["/2415016099_Erika-A-F_TEKWEB-A_Praktikum-9/_next/static/chunks/09ce04219bd3fb9b.js","/2415016099_Erika-A-F_TEKWEB-A_Praktikum-9/_next/static/chunks/86ca0c31c5444cb6.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"g9iTH2ZPzf_TrDT8LBhrT","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"text-center","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"Welcome to My Blog"}],["$","p",null,{"className":"text-lg text-gray-600","children":"A simple blog built with Next.js App Router and Tailwind CSS."}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null
