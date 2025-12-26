@@ -1,33 +1,30 @@
-import Link from 'next/link'
-import { posts } from '../../data/posts' // Import data
-import Link from 'next/link';
-import { BASE_API_URL } from '../../lib/api';
+import Link from "next/link";
+import { posts } from "../../data/posts"; // Import data
 
 export default function BlogList() {
-    return (
+  return (
     <div>
-        <h1 className="text-3xl font-bold mb-6">Daftar Artikel</h1>
+      <h1 className="text-3xl font-bold mb-6">Blog Articles</h1>
 
-        <div className="grid gap-4">
+      <div className="grid gap-4">
         {posts.map((post) => (
-            <div
+          <div
             key={post.id}
-            className="border p-4 rounded bg-white shadow hover:shadow-lg transition">
+            className="border p-4 rounded bg-white shadow hover:shadow-lg transition"
+          >
             <h2 className="text-xl font-bold">{post.title}</h2>
 
-            <p className="text-gray-600 truncate">
-                {post.content}
-            </p>
+            <p className="text-gray-600 truncate">{post.content}</p>
 
             <Link
-                href={`/blog/${post.slug}`}
-                className="text-blue-500 mt-2 inline-block hover:underline"
+              href={`/blog/${post.slug}`}
+              className="text-blue-500 mt-2 inline-block hover:underline"
             >
-                Baca Selengkapnya &rarr;
+              Read More &rarr;
             </Link>
-            </div>
+          </div>
         ))}
-        </div>
+      </div>
     </div>
-    )
+  );
 }

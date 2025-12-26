@@ -1,20 +1,26 @@
 export const posts = [
-    {
+  {
     id: 1,
-    slug: 'belajar-nextjs',
-    title: 'Belajar Next.js Dasar',
-    content: 'Next.js adalah framework React...',
-    },
-    {
+    slug: "learn-nextjs",
+    title: "Learning Next.js Basics",
+    content: "Next.js is a React framework...",
+    author: "Admin",
+    date: "2024-03-01",
+  },
+  {
     id: 2,
-    slug: 'routing-mudah',
-    title: 'Routing Sangat Mudah',
-    content: 'Cukup buat folder, jadi deh rute...',
-    },
-    {
+    slug: "easy-routing",
+    title: "Routing Made Easy",
+    content: "Just create folders and routes work...",
+    author: "Erika",
+    date: "2024-03-05",
+  },
+  {
     id: 3,
-    slug: 'server-components',
-    title: 'Apa itu Server Components?',
-    content: 'React Server Components merender UI di server...',
-    },
-]
+    slug: "server-components",
+    title: "What Are Server Components?",
+    content: "React Server Components render UI on the server...",
+    author: "Guest",
+    date: "2024-03-10",
+  },
+];
